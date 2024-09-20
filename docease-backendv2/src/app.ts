@@ -99,7 +99,7 @@ app.use("*", (req: Request, res: Response) => {
   });
 });
 
-const PORT = 8000 || process.env.PORT;
+const PORT = 8000 ;
 
 server.listen(PORT, () => {
   console.log(`Docease server running on port ${PORT}`);
